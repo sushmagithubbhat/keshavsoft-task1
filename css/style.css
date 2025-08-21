@@ -1,3 +1,4 @@
+ HEAD
 
 
 body {
@@ -46,20 +47,21 @@ header p {
   font-weight: 600;
   transition: all 0.3s ease-in-out;
 }
+
+body {
+  background-color: #f8f9fa;  /* light grey */
+}
+
+/* Hero section button hover */
+
 .btn-light:hover {
   background-color: #ffc107;
   color: #000;
-  transform: scale(1.05);
 }
 
-/* Cards */
-.card {
-  border: none;
-  border-radius: 12px;
-  transition: all 0.3s ease-in-out;
-  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.08);
-}
+/* Card hover effect */
 .card:hover {
+ 
   transform: translateY(-8px) scale(1.03);
   box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15);
 }
@@ -76,6 +78,11 @@ h2::after {
   width: 60px;
   height: 4px;
   background: #0d6efd;
-  margin: 0.
+  margin: 0;
+
+
+
+  transform: scale(1.05);
+  transition: transform 0.3s ease-in-out;
 }
 
