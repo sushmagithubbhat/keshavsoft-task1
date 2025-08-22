@@ -33,5 +33,12 @@ keshavsoft-task1/
 │
 └── images/
 ├── sample1.jpg
+
+
+# KeshavSoft Internship - Task 2
+
+Here I have used vite to run task1 - and modified style.css as well
+
+
 ├── sample2.jpg
 └── sample3.jpg
